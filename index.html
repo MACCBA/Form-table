@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios y tab </title>
+</head>
+<body>
+    <!-- Formularios -->
+    <form> 
+        <!-- <p> tipo de texto -->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre"
+        placeholder="ingresa tu nombre"/>
+    </p>
+   <!-- email -->
+    <p>
+        <label for="email">Email</label>
+        <input type="email" 
+        placeholder="ingresa tu email" id="email"
+        />
+    </p>
+    <!-- Tipo Pasword -->
+    <div>
+        <label for="edad">Edad</label>
+        <input type="number" required
+        placeholder="ingresa tu email" id="edad" 
+        />
+   </div>
+   <!-- Tipo Tel -->
+   <p>
+    <label for="tel">Telefono</label>
+    <input type="tel" id="tel"
+    placeholder="Telefono"/>
+</p>
+  
+<div>
+     <!-- Tipo checkbox -->
+    <input type="checkbox" id="terminos"/>
+    <label for="terminos">Aceptar terminos</label>
+
+</div>
+<div>
+    <input type="radio" id="boca" name="equipo"/>
+    <label for="boca">Boca</label>
+    <input type="radio" id="River" name="equipo"/>
+    <label for="River">River</label>
+</div>
+<div>
+    <!-- Tipo Select -->
+
+    <label for="select">Jugamos?</label>
+    <select name="select" id="select">
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijera">Tijera</option>
+    </select>
+</div>
+
+
+    <p>
+        <input type="submit">
+    </p>
+  
+
+    </form>
+
+    
+</body>
+</html>
